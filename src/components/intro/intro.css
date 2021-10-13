@@ -98,6 +98,12 @@
     .intro{
         flex-direction: column;
     }
+    .i-title-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .intro-left-wrapper{
         padding: 10px;
         text-align: center;
