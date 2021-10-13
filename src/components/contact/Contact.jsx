@@ -15,7 +15,7 @@ function Contact() {
     const handleSubmit = (e)=> {
         e.preventDefault();
 
-        emailjs.sendForm('service_2hipo2l', 'template_sycvuhr', formRef.current, 'user_5KYwCRC5e1XPbBG5n5cjR')
+        emailjs.sendForm('service_2hipo2l', 'template_sycvuhr', formRef.current, 'userKey')
         .then((result) => {
             console.log(result.text);
             setDone(true)
